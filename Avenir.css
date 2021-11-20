@@ -1,0 +1,14 @@
+table, th, td{
+    margin: auto;
+    border-collapse: collapse;
+    border-inline: 1px solid black;
+    border: 1px solid black;
+    padding-inline: 75px;
+    color: white;
+    background-color: gray;
+
+}
+header
+{
+    text-align: center;
+}
