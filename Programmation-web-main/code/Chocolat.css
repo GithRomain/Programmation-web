@@ -1,0 +1,21 @@
+header
+{
+    text-align: center;
+}
+
+table, th, td{
+    text-align: right;
+    margin: auto;
+    border-collapse: collapse;
+    border-inline: 1px solid black;
+    padding-inline: 75px;
+}
+img
+{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
