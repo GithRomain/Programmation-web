@@ -1,0 +1,25 @@
+Accueil
+A propos
+
+page Mousse
+page choco
+Nouveauté
+Avenir entreprise
+
+achat
+
+Taches :
+
+HTML
+Accueil + Nouveauté Romain
+Header + Page choco + Avenir entreprise Luka
+A propos +Page mousse lucas
+
+En plus achat
+
+CSS
+
+Javascript
+
+
+
