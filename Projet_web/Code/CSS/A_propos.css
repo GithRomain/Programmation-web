@@ -6,46 +6,7 @@ body{
 }
 /*toute la page*/
 
-.top-page h1{
-    font-size: 50px;
-    font-family: Scipt;
-    display: flex;
-    margin-top: 0px;
-}
-/*La maison lan*/
 
-header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    z-index: 100;
-}
-/*toute la partie avec le menu au dessus*/
-
-.barre-menu{
-    margin-top: 0px;
-    display: flex;
-    list-style: none;
-    font-size: 25px;
-    justify-content: space-around;
-    width: 75%;
-}
-/* menu de navigation */
-
-.top-page header .barre-menu a{
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-    border-radius: 7px;
-}
-.top-page header .barre-menu a:hover{
-    background-color: white;
-    color: black;
-    transition: 1s ease-out;
-    border-radius: 50px;
-}
-/* Animation sur le menu */
 
 .media{
     display: flex;
