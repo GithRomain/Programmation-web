@@ -7,20 +7,22 @@ body
 }
 
 /* premiere section */
+/* premiere section */
 .titre
 {
     display: flex;
     flex-direction: row;
-    margin-left: 45px;
+    margin-left: 280px;
     margin-top: 10px;
 }
 
 .logo
 {
-    width: 10%;
-    height: 10%;
+    width: 5%;
+    height: 5%;
     padding-right: 10px;
-    padding-top: 10px;
+    padding-top: 13px;
+    color: white;
 }
 
 .top-page .titre h1
