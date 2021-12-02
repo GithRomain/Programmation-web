@@ -5,31 +5,28 @@ body
     width: 100%;
     overflow-x : hidden;
 }
-
-/* premiere section */
-.titre
-{
-    display: flex;
-    flex-direction: row;
-    margin-left: 255px;
-    margin-top: 10px;
-}
+     /* premiere section */
+ .titre
+ {
+     display: flex;
+     flex-direction: row;
+     margin-top: 10px;
+     color: white;
+ }
 
 .logo
 {
-    width: 5%;
-    height: 5%;
+    width: 30px;
+    height: 40px;
     padding-right: 10px;
-    padding-top: 13px;
+    padding-top: 5px;
     color: white;
 }
 
-.top-page .titre h1
+.titre h1
 {
     font-size: 30px;
     font-family: Scipt;
-    margin-top: auto;
-    color: white;
     margin-top: 10px;
 }
 
@@ -41,9 +38,7 @@ header
     position: fixed;
     width: 100%;
     z-index: 100;
-    background: black;
-    top: 0px;
-    left: 0px;
+    font-family: "Abril Fa";
 }
 
 /* menu de navigation */
@@ -57,7 +52,7 @@ header
     width: 75%;
 }
 
-.top-page header .barre-menu a
+header .barre-menu a
 {
     text-decoration: none;
     color: white;
@@ -65,13 +60,14 @@ header
     border-radius: 7px;
 }
 
-.top-page header .barre-menu a:hover
+header .barre-menu a:hover
 {
     background-color: white;
     color: black;
     transition: 1s ease-out;
     border-radius: 50px;
 }
+
 .letrucdedebut{
     background: #0c0813;
     position : absolute;

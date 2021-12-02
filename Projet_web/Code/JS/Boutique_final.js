@@ -1,10 +1,10 @@
 var slideIndex = 1;
 showSlides(slideIndex);
-// Next/previous controls
+
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-// Thumbnail image controls
+
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
@@ -27,3 +27,39 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+var infos = document.forms.commande;
+
+function ajouter(){
+    function handleForm(event) { event.preventDefault(); }
+    
+    infos.addEventListener('submit', handleForm);
+
+    let tr = document.createElement('tr');
+
+    var name = document.getElementsByClassName("produit-name").item(slideIndex-1);
+    let td = document.createElement('td');
+    td.textContent = name.textContent;
+    tr.appendChild(td);
+    
+    for (i = 0; i < 9; i++){
+        let td = document.createElement('td');
+        td.textContent = infos[i].value;
+        tr.appendChild(td);
+    }
+    let table = document.getElementsByName("affichage")[0];
+    table.appendChild(tr);
+}
+
+/*
+function supprimer(){
+    let table = document.getElementsByName("affichage")[0];
+    console.log(table)
+    let tr = document.getElementsByName("tr")[1];
+    console.log(tr);
+    for (i = 0; i < 9; i++){
+        tr.removeChild(td);
+    }
+    table.removeChild(tr);
+}
+*/
